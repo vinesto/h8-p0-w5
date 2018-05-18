@@ -2,7 +2,7 @@ function highestScore (students) {
   var tempObj = {};
   for (var i = 0; i < students.length; i++){
     if(tempObj[students[i].class] === undefined){
-      tempObj[students[i].class] = {name:'', score:0}
+      tempObj[students[i].class] = {name:'', score:0};
     }
     if
       (tempObj[students[i].class].score < students[i].score ){
